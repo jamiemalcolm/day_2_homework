@@ -97,3 +97,12 @@ users["Laura"] = {
     ]
 }
 print(users["Laura"])
+
+# find all dags named spike without useing user name
+# for user in users:
+#     if users[user]["pets"]["name"] == "spike":
+#         print(user)
+for user in users:
+    for pet in ["pets"]:
+        if ["name"] == "spike":
+            print(user)
